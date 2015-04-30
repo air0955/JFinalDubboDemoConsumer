@@ -10,6 +10,10 @@ import com.jfinal.plugin.spring.IocInterceptor;
 
 @Before({ BlogInterceptor.class, IocInterceptor.class })
 public class BlogController extends Controller {
+	
+	
+	
+	public String Aaaaa;
 
 	@Inject.BY_NAME
 	private BlogService blogService;
