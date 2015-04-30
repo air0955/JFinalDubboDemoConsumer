@@ -13,7 +13,7 @@ public class BlogController extends Controller {
 	
 	
 	
-	public String Aaaaa;
+	public String Aaaaa111;
 
 	@Inject.BY_NAME
 	private BlogService blogService;
